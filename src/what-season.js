@@ -16,6 +16,6 @@ module.exports = function getSeason(date) {
   for (const season in seasons) {
     if (seasons[season].includes(month)) {
       return season;
-    };
+    }
   }
 };
