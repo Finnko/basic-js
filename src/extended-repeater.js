@@ -6,7 +6,7 @@ module.exports = function repeater(str, options = {}) {
     separator = '+',
     addition = '',
     additionRepeatTimes = 1,
-    additionSeparator = '',
+    additionSeparator = '|',
   } = options;
 
   let additionStr = '';
